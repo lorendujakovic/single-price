@@ -1,0 +1,57 @@
+// Global
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,*::before, *::after  {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    
+    background-color: $light-gray;
+}
+
+.center-w1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+   
+}
+
+@media screen and (min-width: 1024px) {
+    .center-w1 {
+        height: 100vh;
+    }
+}
+
+h1{
+    color: $cyan;
+    
+    font-size: 1.6rem;
+
+    margin: 0;
+}
+
+h2 {
+    color: $light-gray;
+
+    font-size: 1.2rem;
+
+    margin-bottom: 1.4em;
+    margin-top: 0;
+}
