@@ -73,10 +73,10 @@ h2 {
 .single-price__copy--white {
   color: #e5eff5;
 }
-.single-price--dollar {
+.single-price__dollar {
   font-size: 2.25rem;
 }
-.single-price--opacity {
+.single-price__pricing {
   color: rgba(255, 255, 255, 0.5);
 }
 .single-price__hero {
@@ -100,6 +100,7 @@ h2 {
   width: 100%;
   padding: 1em 2em 1em 2em;
   margin-top: 1.25rem;
+  cursor: pointer;
   border: none;
   border-radius: 0.25em;
 }

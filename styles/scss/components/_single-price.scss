@@ -38,11 +38,11 @@
         }
     }
 
-    &--dollar {
+    &__dollar {
         font-size: 2.25rem;
     }
 
-    &--opacity {
+    &__pricing {
         color: rgba($color: white, $alpha: 0.5);
     }
    
@@ -78,6 +78,7 @@
         padding: 1em 2em 1em 2em;
         margin-top: 1.25rem;
         
+        cursor: pointer;
         
         border: none;
         border-radius: 0.25em;
